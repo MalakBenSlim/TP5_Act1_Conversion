@@ -66,7 +66,6 @@ Création du répertoire `Malak Ben Slim_LSI3_DevAppReparties` qui regroupe les 
 
 ![Arborescence des projets](images/01_arborescence.png)
 ![Arborescence des projets](images/02_arborescence.png)
-![Arborescence du client](images/02_arborescence.png)
 
 ### 5.2 Contenu du fichier `conversionClient.jar`
 
@@ -77,13 +76,13 @@ Commande `jar tf conversionClient.jar` : seule l'interface `IConversion` est pr�
 
 Le serveur démarre le registre RMI et publie l'objet distant.
 
-![Console du serveur](images/console_serveur.png)
+![Console du serveur](images/03_console_serveur.png)
 
 ### 5.4 Console du client
 
 Résultat de l'appel `convertirMontant(500)` : **1500.0**.
 
-![Console du client](images/console_client.png)
+![Console du client](images/04_console_client.png)
 
 ## 6. Synthèse
 
